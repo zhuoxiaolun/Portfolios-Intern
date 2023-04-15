@@ -1,17 +1,19 @@
 <template>
-  <AboutMePage/>
+
+  <HomePage/>
 
 </template>
 
 <script>
 
-import AboutMePage from "@/components/About-me-page.vue";
+import HomePage from "@/components/home-page.vue";
 
 
 export default {
   name: 'App',
   components: {
-    AboutMePage,
+      HomePage,
+
   }
 }
 </script>

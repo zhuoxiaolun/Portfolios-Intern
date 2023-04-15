@@ -4,7 +4,7 @@
       <div class="home-circlar">
         <svg viewBox="0 0 100 100">
           <path d="M 50 50 m -50 0 a 50 50 0 1 1 100 0 a 50 50 0 1 1 -100 0 z" id="home-circlar" />
-          <text stroke="#FE600F"><textPath xlink:href="#home-circlar">Insightful wisdom Inspiring ideas </textPath></text>
+          <text fill="#FE600F"><textPath xlink:href="#home-circlar">Insightful wisdom Inspiring ideas </textPath></text>
         </svg>
       </div>
 

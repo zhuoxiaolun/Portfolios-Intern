@@ -2,6 +2,11 @@
   width: 150px;
   height: 150px;
   margin: 4px auto 0;
+  position: absolute;
+  left: 231.84px;
+  top: 105.82px;
+  letter-spacing: 0.14em;
+  font-weight: 600;
 }
 
 .home-circlar svg {
@@ -13,26 +18,36 @@
 
 .home-circlar svg:hover {
   transform: rotate(-2turn);
+  transition-duration: 10s;
 }
 
 .home-circlar path {
-  color: #FE600F;
+
   fill: none;
 }
 
-
-
+@keyframes swing {
+  15%{transform: translate(5px)}
+  40%{transform: translate(-5px)}
+  65%{transform: translate(2px)}
+  85%{transform: translate(-2px)}
+  100%{transform: translate(0px)}
+}
+.home-photo:hover{
+  animation: swing 0.5s 1;
+}
 
 .home-photo{
-  width: 533px;
-  height: 675px;
+  width: 514px;
+  height: 657px;
+
 }
 
 .home{
   display: flex;
   justify-content: space-around;
 
-  background: radial-gradient(54.86% 13.29% at 50% 11.78%, #F4EEE0 0%, #FFFFFF 100%);
+  background: radial-gradient(50% 50% at 50% 50%, #FDFAE7 0%, #FFFFFF 100%);
 }
 .home-left{
   display:flex;
@@ -43,28 +58,34 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
-  .home-slogan p{
+  margin-top: 180px;
+  .home-slogan p {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     flex-wrap: wrap;
 
     font-family: 'Source Serif Pro';
-    font-size: 31px;
+    font-size: 50px;
     font-weight: 600;
-    line-height: 39px;
+    line-height: 100px;
     letter-spacing: 0.08em;
     color: #C69D5F;
+
 
     .home-wisdom {
       color: #FE600F;
     }
   }
+  .home-slogan:hover{
+    transform: scale(1.1);
+
+  }
 
   .home-btn{
 
-    width: 208px;
-    height: 66px;
+    width: 150px;
+    height: 50px;
     border-radius: 100px;
   }
 
