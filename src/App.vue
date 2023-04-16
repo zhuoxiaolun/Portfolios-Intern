@@ -1,17 +1,20 @@
 <template>
-
+  <bannerPage/>
   <HomePage/>
-
 </template>
 
 <script>
 
-import HomePage from "@/components/home-page.vue";
 
+
+
+import bannerPage from "@/components/banner-page.vue";
+import HomePage from "@/components/home-page.vue";
 
 export default {
   name: 'App',
   components: {
+      bannerPage,
       HomePage,
 
   }
