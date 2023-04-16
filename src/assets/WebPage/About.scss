@@ -3,33 +3,47 @@
   flex-direction: column;
   align-content: space-between;
   justify-content: space-around;
-
   background-color: #F4EEE0;
+
 }
-.about-bar {
+.about-font{
   display: flex;
-  justify-content: flex-start;
-  background-color: #FE600F;
+  flex-direction: row;
+  margin-left: 240px;
   font-family: 'Source Serif Pro';
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
   line-height: 60px;
-  color: #F4EEE0;
+  color: #FFFFFF;
+}
+.about-bar {
+  width: auto;
+  background-color: #FE600F;
+  position: absolute;
+  height: 60px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
 }
 .about-title {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-content: space-around;
+
+  //justify-content: space-between;
+  //align-content: space-around;
+  margin-top: 80px;
+
+
 
   .about-en-title{
     font-family: 'Source Serif Pro';
     font-style: normal;
     font-weight: 600;
-    font-size: 62px;
-    line-height: 78px;
+    font-size: 45px;
+    line-height: 70px;
     color: #975314;
+
   }
 
   .about-ch-title{
@@ -37,23 +51,33 @@
     font-family: 'Source Serif Pro';
     font-style: normal;
     font-weight: 600;
-    font-size: 45px;
-    line-height: 56px;
+    font-size: 30px;
+    line-height: 50px;
     color: #D6C19D;
+    margin-bottom: 10px;
+
   }
 }
 
-.about-profile{
+.about-profile {
   display: flex;
-  justify-content: space-between;
-  border: 2px solid #975314;
-
+  flex-direction: row;
+  justify-content:space-between;
   opacity: 1.0;
+  margin-top: 250px;
+  //margin-right: 150px;
+  border-top:2px solid  #975313 ;
+  border-bottom:2px solid  #975313;
+  height: 150px;
+  .about-photo {
+    width: 200px;
+    height: 200px;
+    //margin-left: 150
+    position: absolute;
+    top: 850px;
+    left: 150px;
 
-  .about-photo{
-    width: 100px;
-    height: 105px;
-  }
+}
 
   .about-experience{
     display: flex;
@@ -61,22 +85,24 @@
     justify-content: space-around;
     flex-grow: 1;
 
+
     .job{
       display: flex;
       flex-direction: column;
       align-items: center;
+      margin-left: 350px;
 
       font-family: 'Source Serif Pro';
       font-style: normal;
       color: #32721D;
       .job-ch{
         font-weight: 600;
-        font-size: 20px;
+        font-size: 25px;
         line-height: 30px;
       }
       .job-en{
         font-weight: 700;
-        font-size: 13px;
+        font-size: 15px;
         line-height: 16px;
       }
     }
@@ -109,12 +135,12 @@
       color: #32721D;
       .education-ch{
         font-weight: 600;
-        font-size: 20px;
+        font-size: 25px;
         line-height: 30px;
       }
       .education-en{
         font-weight: 700;
-        font-size: 13px;
+        font-size: 15px;
         line-height: 16px;
       }
     }
@@ -127,19 +153,164 @@
       color: #975314;
 
       font-weight: 600;
-      font-size: 30px;
-      line-height: 40px;
+      font-size: 25px;
+      line-height: 35px;
+      margin-right: 150px;
     }
   }
 }
 
 .about-description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Noto Sans HK';
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 46px;
+  font-size: 24px;
+  line-height: 50px;
   display: flex;
   align-items: center;
   text-align: center;
+  letter-spacing: 0.02em;
+  color: #FE600F;
+   margin: 150px;
+}
+.about-professional-items{
+  .about-professional-items-title{
+      .item-title-ch{
+        font-family: 'Noto Sans HK';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 65px;
+
+        leading-trim: both;
+        text-edge: cap;
+        text-align: center;
+        letter-spacing: 0.26em;
+
+        color: #C69D5F;
+      }
+      .item-title-en{
+        font-family: 'Source Serif Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+
+        leading-trim: both;
+        text-edge: cap;
+        letter-spacing: 0.2em;
+        color: #975314;
+        margin-bottom: 50px;
+    }
+  }
+  .about-professional-items-item{
+    font-family: 'Noto Sans HK';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 70px;
+
+    leading-trim: both;
+    text-edge: cap;
+    text-align: center;
+    letter-spacing: 0.26em;
+    color: #975314;
+
+  }
+}
+.about-content{
+  .about-content-title{
+    .content-title-en{
+      font-family: 'Source Serif Pro';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 18px;
+
+      leading-trim: both;
+      text-edge: cap;
+      letter-spacing: 0.2em;
+      color: #975314;
+      margin-bottom: 50px;
+    }
+    .content-title-ch{
+      font-family: 'Noto Sans HK';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 35px;
+      line-height: 65px;
+
+      leading-trim: both;
+      text-edge: cap;
+      text-align: center;
+      letter-spacing: 0.26em;
+      color: #C69D5F;
+      margin-top: 150px;
+    }
+  }
+  .about-content-email{
+    font-family: 'Noto Sans HK';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 51px;
+
+    leading-trim: both;
+    text-edge: cap;
+    text-align: center;
+    letter-spacing: 0.26em;
+
+
+    color: #975314;
+  }
+  .about-content-phone{
+    font-family: 'Noto Sans HK';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 65px;
+
+    leading-trim: both;
+    text-edge: cap;
+    text-align: center;
+    letter-spacing: 0.26em;
+
+    color: #975314;
+
+  }
+}
+.about-bottom{
+
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 200px;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 150px;
+
+  margin-top: 200px;
+  .about-sentences{
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 50px;
+    leading-trim: both;
+    text-edge: cap;
+    text-align: center;
+    color: #32721D;
+    border-bottom: 2px solid #32721D;
+    padding-bottom: 20px;
+  }
+  .about-btn{
+    width: 190px;
+    height: 85px;
+  }
+  .about-btn:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+  }
 }

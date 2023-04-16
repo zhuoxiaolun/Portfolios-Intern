@@ -1,21 +1,17 @@
 <template>
-  <bannerPage/>
-  <HomePage/>
+    <AboutMePage/>
+  <FooterCopyright/>
 </template>
 
 <script>
 
-
-
-
-import bannerPage from "@/components/banner-page.vue";
-import HomePage from "@/components/home-page.vue";
+import FooterCopyright from "@/components/footer-copyright.vue";
+import AboutMePage from "@/components/About-me-page.vue";
 
 export default {
   name: 'App',
   components: {
-      bannerPage,
-      HomePage,
+      AboutMePage, FooterCopyright
 
   }
 }
