@@ -28,8 +28,11 @@
           <p class="education-ch">{{aboutProfile.education_ch}}</p>
           <p class="education-en">{{aboutProfile.education_en}}</p>
         </div>
-        <p clas="senior-high">{{aboutProfile.senior_school}}</p>
-        <p class="collage">{{aboutProfile.collage_school}}</p>
+        <div class="school">
+        <p >{{aboutProfile.senior_school}}</p>
+        <p >{{aboutProfile.collage_school}}</p>
+        </div>
+
       </div>
     </div>
 
@@ -81,7 +84,6 @@ const title_ch = [
   '現實是設計的體現',
   '而我透過設計將智慧轉化為現實'
 ];
-
 const titles_en = [
   'Wisdom is the cornerstone of creation',
   'Design is the carrier of wisdom',

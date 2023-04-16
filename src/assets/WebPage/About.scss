@@ -3,6 +3,8 @@
   flex-direction: column;
   align-content: space-between;
   justify-content: space-around;
+
+  background-color: #F4EEE0;
 }
 .about-bar {
   display: flex;
@@ -43,32 +45,101 @@
 
 .about-profile{
   display: flex;
+  justify-content: space-between;
+  border: 2px solid #975314;
+
+  opacity: 1.0;
 
   .about-photo{
-    width: 170.55px;
-    height: 180px;
+    width: 100px;
+    height: 105px;
   }
+
   .about-experience{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+
     .job{
       display: flex;
       flex-direction: column;
+      align-items: center;
+
+      font-family: 'Source Serif Pro';
+      font-style: normal;
+      color: #32721D;
       .job-ch{
-        font-family: 'Source Serif Pro';
-        font-style: normal;
         font-weight: 600;
-        font-size: 35px;
-        line-height: 44px;
-        color: #32721D;
+        font-size: 20px;
+        line-height: 30px;
       }
       .job-en{
-        font-family: 'Source Serif Pro';
-        font-style: normal;
         font-weight: 700;
         font-size: 13px;
         line-height: 16px;
-        color: #32721D;
       }
     }
+
+    .name{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #975313;
+        font-family: 'Source Serif Pro';
+        font-style: normal;
+      .name-ch{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 30px;
+      }
+      .name-en{
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 16px;
+      }
+    }
+
+    .education{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: 'Source Serif Pro';
+      font-style: normal;
+      color: #32721D;
+      .education-ch{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+      }
+      .education-en{
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 16px;
+      }
+    }
+
+    .school{
+      display: flex;
+      flex-direction: column;
+      font-family: 'Source Serif Pro';
+      font-style: normal;
+      color: #975314;
+
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 40px;
+    }
   }
+}
+
+.about-description{
+  font-family: 'Noto Sans HK';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 46px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
