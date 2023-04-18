@@ -1,17 +1,17 @@
 <template>
-    <AboutMePage/>
-  <FooterCopyright/>
+
+  <PortfoliosPage/>
 </template>
 
 <script>
 
-import FooterCopyright from "@/components/footer-copyright.vue";
-import AboutMePage from "@/components/About-me-page.vue";
+
+import  PortfoliosPage from "@/components/myPortfolios-page.vue";
 
 export default {
   name: 'App',
   components: {
-      AboutMePage, FooterCopyright
+      PortfoliosPage,
 
   }
 }
