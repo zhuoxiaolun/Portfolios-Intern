@@ -1,0 +1,88 @@
+.portfolio{
+  background: radial-gradient(156.71% 64.02% at 50% 33.7%, #F4EEE0 0%, #FFFFFF 100%);
+
+  .portfolio-font {
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #FE600F;
+    padding: 105px;
+
+  }
+  .portfolio-work{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 80px;
+   margin-right: 100px;
+    margin-left: 100px;
+
+    .portfolio-left-work {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 80px;
+
+      .left-01 {
+        width: 485px;
+        height: 431px;
+      }
+
+      .left-02 {
+        width: 485px;
+        height: 431px;
+      }
+
+      .left-03 {
+        width: 485px;
+        height: 431px;
+      }
+
+      .left-04 {
+        width: 485px;
+        height: 431px;
+      }
+    }
+    .portfolio-right-work{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 80px;
+      .right-05{
+        width: 485px;
+        height: 431px;
+      }
+      .right-06{
+        width: 485px;
+        height: 431px;
+      }
+      .right-07{
+        width: 485px;
+        height: 431px;
+      }
+      .right-08{
+        width: 485px;
+        height: 431px;
+      }
+    }
+  }
+  .portfolio-gohome{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width:1632px;
+    .go-home-btn{
+      width: 190px;
+      height: 80px;
+      margin: 150px;
+
+    }
+  }
+
+}
