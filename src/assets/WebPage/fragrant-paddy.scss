@@ -1,20 +1,76 @@
 .fragrant-paddy{
   background-color: #F9F7F0;
-
+  position: absolute;
+  width: 1920px;
+  height: 1100px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+justify-content: center;
+  align-items: center;
+  gap: 100px;
 
   .fragrant-article{
-    .fragrant-name{
+    width:548px;
+    height: 864px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .fragrant-name-ch{
+      font-family: 'Source Serif Pro';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 62px;
+      line-height: 78px;
+      color: #32721D;
 
+      }
+    .fragrant-name-en {
+      font-family: 'Source Serif Pro';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 50px;
+      color: #32721D;
     }
     .fragrant-topic{
-
+      font-family: 'Noto Sans HK';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 35px;
+      color: #C69D5F;
+      margin-top: 72px;
+      margin-bottom: 23px;
     }
     .fragrant-topic-name{
+      font-family: 'Noto Sans HK';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 43px;
+      color: #FE600F;
+    }
+    .fragrant-inside-article{
+      font-family: 'Noto Sans HK';
+      font-style: normal;
+      font-weight:549;
+      font-size: 25px;
+      line-height: 36px;
+      color: #975314;
+      margin-top: 72px;
 
     }
-    .fragrant-inside-article
   }
-  .fragrant-photo{
 
+  .fragrant-work{
+    width: 970px;
+    height: 900px;
+    overflow-y: scroll;
+    background: #F9F7F0;
+    .fragrant-photo{
+     margin-top: 150px;
+    }
   }
 }
