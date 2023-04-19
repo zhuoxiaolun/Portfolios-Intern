@@ -1,17 +1,17 @@
 <template>
-
-  <PortfoliosPage/>
+    <FragrantPaddy/>
 </template>
 
 <script>
 
 
-import  PortfoliosPage from "@/components/myPortfolios-page.vue";
+
+import FragrantPaddy from "@/components/fragrant-paddy.vue";
 
 export default {
   name: 'App',
   components: {
-      PortfoliosPage,
+      FragrantPaddy,
 
   }
 }
