@@ -1,78 +1,117 @@
-.fragrant-paddy{
-  background-color: #F9F7F0;
-  position: absolute;
-  width: 1920px;
-  height: 1100px;
-  left: 0px;
-  top: 0px;
-  display: flex;
-  flex-direction: row;
-justify-content: center;
-  align-items: center;
-  gap: 100px;
 
-  .fragrant-article{
-    width:548px;
-    //height: 864px;
+.fragrant-all {
+  background-color: #F9F7F0;
+  width: 100%;
+  height:1200px;
+  left: 0;
+  top: 0;
+
+  position: absolute;
+
+
+  .fragrant-paddy {
+
+    //position: absolute;
+    //width: 100%;
+    //height: 100%;
+
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    .fragrant-name-ch{
-      font-family: 'Source Serif Pro';
-      font-style: normal;
-      font-weight: 600;
-      font-size: 62px;
-      line-height: 78px;
-      color: #32721D;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .fragrant-article {
+      width: 455px;
+      //height: 864px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .fragrant-name-ch {
+        font-family: 'Source Serif Pro';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 62px;
+        line-height: 78px;
+        color: #32721D;
 
       }
-    .fragrant-name-en {
-      font-family: 'Source Serif Pro';
-      font-style: normal;
-      font-weight: 600;
-      font-size: 40px;
-      line-height: 50px;
-      color: #32721D;
-    }
-    .fragrant-topic{
-      font-family: 'Noto Sans HK';
-      font-style: normal;
-      font-weight: 600;
-      font-size: 24px;
-      line-height: 35px;
-      color: #C69D5F;
-      margin-top: 72px;
-      margin-bottom: 23px;
-    }
-    .fragrant-topic-name{
-      font-family: 'Noto Sans HK';
-      font-style: normal;
-      font-weight: 600;
-      font-size: 30px;
-      line-height: 43px;
-      color: #FE600F;
-    }
-    .fragrant-inside-article{
-      text-align: left;
-      justify-content: flex-start;
-      font-family: 'Noto Sans HK';
-      font-style: normal;
-      font-weight:600;
-      font-size: 25px;
-      line-height: 36px;
-      color: #975314;
-      //margin-top: 72px;
 
+      .fragrant-name-en {
+        font-family: 'Source Serif Pro';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+        color: #32721D;
+      }
+
+      .fragrant-topic {
+        font-family: 'Noto Sans HK';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 35px;
+        color: #C69D5F;
+        margin-top: 72px;
+        margin-bottom: 23px;
+      }
+
+      .fragrant-topic-name {
+        font-family: 'Noto Sans HK';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 43px;
+        color: #FE600F;
+        margin-bottom: 72px;
+      }
+
+      .fragrant-inside-article {
+        text-align: left;
+        justify-content: flex-start;
+        font-family: 'Noto Sans HK';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 36px;
+        color: #975314;
+
+
+      }
     }
+
+    .fragrant-work {
+      width: 725px;
+      height: 850px;
+      overflow-y: scroll;
+      background: #F9F7F0;
+
+      .fragrant-photo {
+        margin-top: 160px;
+
+        .fragrant {
+          width: 700px;
+        }
+
+      }
+    }
+
+  }
+  .fragrant-delete {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 50px;
+
   }
 
-  .fragrant-work{
-    width: 970px;
-    height: 900px;
-    overflow-y: scroll;
-    background: #F9F7F0;
-    .fragrant-photo{
-     margin-top: 150px;
-    }
+  .fragrant-delete-photo {
+
   }
 }
+
