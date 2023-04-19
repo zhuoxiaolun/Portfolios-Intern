@@ -13,7 +13,7 @@ justify-content: center;
 
   .fragrant-article{
     width:548px;
-    height: 864px;
+    //height: 864px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -37,7 +37,7 @@ justify-content: center;
     .fragrant-topic{
       font-family: 'Noto Sans HK';
       font-style: normal;
-      font-weight: 700;
+      font-weight: 600;
       font-size: 24px;
       line-height: 35px;
       color: #C69D5F;
@@ -53,13 +53,15 @@ justify-content: center;
       color: #FE600F;
     }
     .fragrant-inside-article{
+      text-align: left;
+      justify-content: flex-start;
       font-family: 'Noto Sans HK';
       font-style: normal;
-      font-weight:549;
+      font-weight:600;
       font-size: 25px;
       line-height: 36px;
       color: #975314;
-      margin-top: 72px;
+      //margin-top: 72px;
 
     }
   }
