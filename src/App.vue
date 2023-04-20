@@ -1,17 +1,17 @@
 <template>
-    <FragrantPaddy/>
+    <TaiwanCulture/>
 </template>
 
 <script>
 
 
 
-import FragrantPaddy from "@/components/fragrant-paddy.vue";
+import TaiwanCulture from "@/components/taiwan-culture.vue";
 
 export default {
   name: 'App',
   components: {
-      FragrantPaddy,
+      TaiwanCulture,
 
   }
 }

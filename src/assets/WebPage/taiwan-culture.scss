@@ -1,15 +1,14 @@
-
-.fragrant-all {
+.Taiwan-all {
   background-color: #F9F7F0;
   width: 100%;
-  height:1200px;
+  height:1500px;
   left: 0;
   top: 0;
 
   position: absolute;
 
 
-  .fragrant-paddy {
+  .Taiwan-culture {
 
     //position: absolute;
     //width: 100%;
@@ -20,36 +19,36 @@
     justify-content: center;
     align-items: center;
     gap: 130px;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
-    .fragrant-article {
+    .Taiwan-article {
       width: 455px;
       //height: 864px;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
 
-      .fragrant-name-ch {
+      .Taiwan-name-ch {
         font-family: 'Source Serif Pro';
         font-style: normal;
         font-weight: 600;
-        font-size: 62px;
+        font-size: 45px;
         line-height: 78px;
         color: #32721D;
 
       }
 
-      .fragrant-name-en {
+      .Taiwan-name-en {
         font-family: 'Source Serif Pro';
         font-style: normal;
         font-weight: 600;
-        font-size: 40px;
+        font-size: 30px;
         line-height: 50px;
         color: #32721D;
       }
 
-      .fragrant-topic {
+      .Taiwan-topic {
         font-family: 'Noto Sans HK';
         font-style: normal;
         font-weight: 600;
@@ -60,7 +59,7 @@
         margin-bottom: 23px;
       }
 
-      .fragrant-topic-name {
+      .Taiwan-topic-name {
         font-family: 'Noto Sans HK';
         font-style: normal;
         font-weight: 600;
@@ -70,7 +69,7 @@
         margin-bottom: 72px;
       }
 
-      .fragrant-inside-article {
+      .Taiwan-inside-article {
         text-align: left;
         justify-content: flex-start;
         font-family: 'Noto Sans HK';
@@ -79,21 +78,26 @@
         font-size: 20px;
         line-height: 36px;
         color: #975314;
+      }
 
-
+      .Taiwan-aww-photo {
+        .Taiwan-culture-aww {
+          width: 250px;
+          margin-top: 50px;
+        }
       }
     }
 
-    .fragrant-work {
+    .Taiwan-work {
       width: 725px;
-      height: 850px;
-      overflow-y: scroll;
+      //height: px;
+
       background: #F9F7F0;
 
-      .fragrant-photo {
-        margin-top: 170px;
+      .Taiwan-photo {
+        margin-top:px;
 
-        .fragrant {
+        .Taiwan {
           width: 700px;
         }
 
@@ -101,7 +105,7 @@
     }
 
   }
-  .fragrant-delete {
+  .Taiwan-delete {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -111,8 +115,7 @@
 
   }
 
-  .fragrant-delete-photo {
+  .Taiwan-delete-photo {
     width: 90px;
   }
 }
-
