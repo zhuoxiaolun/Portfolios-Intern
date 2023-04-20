@@ -1,14 +1,14 @@
-.Taiwan-all {
+.attack-all {
   background-color: #F9F7F0;
   width: 100%;
-  height:1500px;
+  height:1300px;
   left: 0;
   top: 0;
 
   position: absolute;
 
 
-  .Taiwan-culture {
+  .attack-actions {
 
     //position: absolute;
     //width: 100%;
@@ -22,33 +22,33 @@
     padding-top: 30px;
     padding-bottom: 30px;
 
-    .Taiwan-article {
+    .attack-article {
       width: 455px;
       //height: 864px;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
 
-      .Taiwan-name-ch {
+      .attack-name-ch {
         font-family: 'Source Serif Pro';
         font-style: normal;
         font-weight: 600;
-        font-size: 45px;
+        font-size: 60px;
         line-height: 78px;
         color: #32721D;
 
       }
 
-      .Taiwan-name-en {
+      .attack-name-en {
         font-family: 'Source Serif Pro';
         font-style: normal;
         font-weight: 600;
-        font-size: 30px;
+        font-size: 35px;
         line-height: 50px;
         color: #32721D;
       }
 
-      .Taiwan-topic {
+      .attack-topic {
         font-family: 'Noto Sans HK';
         font-style: normal;
         font-weight: 600;
@@ -59,7 +59,7 @@
         margin-bottom: 23px;
       }
 
-      .Taiwan-topic-name {
+      .attack-topic-name {
         font-family: 'Noto Sans HK';
         font-style: normal;
         font-weight: 600;
@@ -69,7 +69,7 @@
         margin-bottom: 72px;
       }
 
-      .Taiwan-inside-article {
+      .attack-inside-article {
         text-align: left;
         justify-content: flex-start;
         font-family: 'Noto Sans HK';
@@ -80,32 +80,44 @@
         color: #975314;
       }
 
-      .Taiwan-aww-photo {
-        .Taiwan-culture-aww {
-          width: 200px;
-          margin-top: 50px;
+      .attack-aww-photo {
+        .attack-action-aww {
+          width:  200px;
+          margin-top:45px;
         }
       }
     }
 
-    .Taiwan-work {
-      width: 725px;
+    .attack-work {
+      width: 700px;
       //height: px;
 
       background: #F9F7F0;
 
-      .Taiwan-photo {
-        margin-top:150px;
+      .attack-photo {
+        margin-top:125px;
 
-        .Taiwan {
+        .attack {
           width: 700px;
         }
-
+      }
+      .attack-bottom-photo{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        width: 700px;
+        margin-top: 120px;
+        .attack-left{
+         width:300px;
+        }
+        .attack-right{
+          width:300px;
+        }
       }
     }
 
   }
-  .Taiwan-delete {
+  .attack-delete {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -115,7 +127,7 @@
 
   }
 
-  .Taiwan-delete-photo {
+  .attack-delete-photo {
     width: 90px;
   }
 }

@@ -27,7 +27,7 @@
 
 
                 <div class="peace-aww-photo">
-                    <img  src="../assets/images/fragrant/03-aww.png" alt="0"  class="peace-love-aww" />
+                    <img  src="../assets/images/fragrant/03-aww.png" alt="03"  class="peace-love-aww" />
                 </div>
 
             </div>

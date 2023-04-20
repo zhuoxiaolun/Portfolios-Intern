@@ -1,18 +1,16 @@
 <template>
-    <PeaceLove/>
+    <TaiwanCulture/>
 </template>
 
 <script>
 
 
-
-
-import PeaceLove from "@/components/peace-love.vue";
+import TaiwanCulture from "@/components/taiwan-culture.vue";
 
 export default {
   name: 'App',
   components: {
-      PeaceLove,
+      TaiwanCulture,
 
   }
 }
