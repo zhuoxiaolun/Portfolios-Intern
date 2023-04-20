@@ -1,16 +1,18 @@
 <template>
-    <TaiwanCulture/>
+    <BlenderArt/>
 </template>
 
 <script>
 
 
-import TaiwanCulture from "@/components/taiwan-culture.vue";
+
+import BlenderArt from "@/components/BlenderArt.vue";
+
 
 export default {
   name: 'App',
   components: {
-      TaiwanCulture,
+      BlenderArt,
 
   }
 }
