@@ -1,5 +1,4 @@
-
-.fragrant-all {
+.peace-all {
   background-color: #F9F7F0;
   width: 100%;
   height:1200px;
@@ -9,7 +8,7 @@
   position: absolute;
 
 
-  .fragrant-paddy {
+  .peace-love {
 
     //position: absolute;
     //width: 100%;
@@ -20,17 +19,17 @@
     justify-content: center;
     align-items: center;
     gap: 130px;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
-    .fragrant-article {
+    .peace-article {
       width: 455px;
       //height: 864px;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
 
-      .fragrant-name-ch {
+      .peace-name-ch {
         font-family: 'Source Serif Pro';
         font-style: normal;
         font-weight: 600;
@@ -40,7 +39,7 @@
 
       }
 
-      .fragrant-name-en {
+      .peace-name-en {
         font-family: 'Source Serif Pro';
         font-style: normal;
         font-weight: 600;
@@ -49,7 +48,7 @@
         color: #32721D;
       }
 
-      .fragrant-topic {
+      .peace-topic {
         font-family: 'Noto Sans HK';
         font-style: normal;
         font-weight: 600;
@@ -60,7 +59,7 @@
         margin-bottom: 23px;
       }
 
-      .fragrant-topic-name {
+      .peace-topic-name {
         font-family: 'Noto Sans HK';
         font-style: normal;
         font-weight: 600;
@@ -70,7 +69,7 @@
         margin-bottom: 72px;
       }
 
-      .fragrant-inside-article {
+      .peace-inside-article {
         text-align: left;
         justify-content: flex-start;
         font-family: 'Noto Sans HK';
@@ -79,21 +78,26 @@
         font-size: 20px;
         line-height: 36px;
         color: #975314;
+      }
 
-
+      .peace-aww-photo {
+        .peace-love-aww {
+          height: 250px;
+          margin-top:50px;
+        }
       }
     }
 
-    .fragrant-work {
+    .peace-work {
       width: 725px;
-      height: 850px;
-      overflow-y: scroll;
+      //height: px;
+
       background: #F9F7F0;
 
-      .fragrant-photo {
-        margin-top: 170px;
+      .peace-photo {
+        margin-top:px;
 
-        .fragrant {
+        .peace {
           width: 700px;
         }
 
@@ -101,7 +105,7 @@
     }
 
   }
-  .fragrant-delete {
+  .peace-delete {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -111,8 +115,7 @@
 
   }
 
-  .fragrant-delete-photo {
+  .peace-delete-photo {
     width: 90px;
   }
 }
-
