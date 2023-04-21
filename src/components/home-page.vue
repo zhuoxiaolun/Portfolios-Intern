@@ -16,10 +16,8 @@
               <p>Transforming <span class="home-wisdom">&nbsp;wisdom</span> </p>
               <p>into reality</p>
               <p>through design</p>
-               <p><img  src="../assets/images/home-continue.png" class="home-btn"/></p>
-
             </div>
-
+              <p><img  src="../assets/images/home-continue.png" class="home-btn"/></p>
           </div>
         </div>
     </div>
