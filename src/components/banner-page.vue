@@ -5,15 +5,15 @@
         ZhuoXL
     </div>
     </div>
-        <div class="banner-home">
+        <router-link to="/home" class="banner-home">
            HOME
-        </div>
-        <div class="banner-about">
+        </router-link>
+        <router-link to="/about" class="banner-about">
             ABOUT
-        </div>
-        <div class="banner-portfolio">
+        </router-link>
+        <router-link to="/portfolios" class="banner-portfolio">
             PORTFOLIO
-        </div>
+        </router-link>
 
 </div>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shrikhand">

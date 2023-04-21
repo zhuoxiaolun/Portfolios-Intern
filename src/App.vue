@@ -1,6 +1,6 @@
 <template>
   <bannerPage/>
-  <HomePage/>
+  <MainContainer/>
   <FooterCopyright/>
 </template>
 
@@ -9,15 +9,14 @@
 
 import bannerPage from "@/components/banner-page.vue";
 import FooterCopyright from "@/components/footer-copyright.vue";
-import HomePage from "@/components/home-page.vue";
-
+import MainContainer from "@/MainContainer.vue";
 
 
 export default {
   name: 'App',
   components: {
+    MainContainer,
       bannerPage,
-      HomePage,
       FooterCopyright,
   }
 }
