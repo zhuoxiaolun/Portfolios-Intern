@@ -1,7 +1,7 @@
 <template>
-  <bannerPage/>
+<!--  banner-->
   <PortfoliosPage/>
-  <FooterCopyright/>
+<!--footer-->
 </template>
 
 <script>
@@ -9,16 +9,12 @@
 
 
 import PortfoliosPage from "@/components/myPortfolios-page.vue";
-import bannerPage from "@/components/banner-page.vue";
-import FooterCopyright from "@/components/footer-copyright.vue";
 
 
 export default {
   name: 'App',
   components: {
-      bannerPage,
     PortfoliosPage,
-      FooterCopyright,
   }
 }
 </script>
