@@ -9,78 +9,36 @@
     line-height: 80px;
     color: #FE600F;
     padding: 105px;
-
   }
   .portfolio-work{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    padding: 0px;
     gap: 80px;
-   margin-right: 100px;
+    margin-right: 100px;
     margin-left: 100px;
 
-    .portfolio-left-work {
+    .portfolio-left-work-container {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      padding: 0px;
       gap: 80px;
-
-      .left-01 {
-        width: 485px;
-        height: 431px;
-        -webkit-filter:brightness(.35);
-      }
-
-      .left-02 {
-        width: 485px;
-        height: 431px;
-        -webkit-filter:brightness(.35);
-      }
-
-      .left-03 {
-        width: 485px;
-        height: 431px;
-        -webkit-filter:brightness(.35);
-      }
-
-      .left-04 {
-        width: 485px;
-        height: 431px;
-        -webkit-filter:brightness(.35);
+      .portfolio-left-work{
+        position: relative;
       }
     }
-    .portfolio-right-work{
+    .portfolio-right-work-container{
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      padding: 0px;
       gap: 80px;
-      .right-05{
-        width: 485px;
-        height: 431px;
-        -webkit-filter:brightness(.35);
-      }
-      .right-06{
-        width: 485px;
-        height: 431px;
-        -webkit-filter:brightness(.35);
-      }
-      .right-07{
-        width: 485px;
-        height: 431px;
-        -webkit-filter:brightness(.35);
-      }
-      .right-08{
-        width: 485px;
-        height: 431px;
-        -webkit-filter:brightness(.35);
+      .portfolio-right-work{
+        position: relative;
       }
     }
   }
-  .portfolio-gohome{
+  .portfolio-go-home{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -89,8 +47,31 @@
       width: 190px;
       height: 80px;
       margin: 150px;
-
     }
   }
 
+}
+
+
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5); /* 設定半透明背景顏色 */
+  color: #fff; /* 設定文字顏色 */
+  text-align: center; /* 將文字置中 */
+  display: block; /* 預設不顯示 */
+}
+// 滑鼠移上去時
+.portfolio-relay:hover .overlay
+{
+  display: none
+}
+
+.portfolio-image{
+    width: 485px;
+    height: 431px;
 }

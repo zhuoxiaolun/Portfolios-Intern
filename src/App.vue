@@ -1,19 +1,20 @@
 <template>
-    <BlenderArt/>
+<!--  banner-->
+  <PortfoliosPage/>
+<!--footer-->
 </template>
 
 <script>
 
 
 
-import BlenderArt from "@/components/BlenderArt.vue";
+import PortfoliosPage from "@/components/myPortfolios-page.vue";
 
 
 export default {
   name: 'App',
   components: {
-      BlenderArt,
-
+    PortfoliosPage,
   }
 }
 </script>
