@@ -5,18 +5,13 @@
     </div>
     <div class="portfolio-work">
         <div class="portfolio-left-work-container">
-            <div class="portfolio-left-work portfolio-relay" @click="showMessage">
+            <div class="portfolio-left-work portfolio-relay" >
                 <img class="portfolio-image" src="../assets/images/left/01.png" alt="01" />
                 <div class="overlay">
                     <div class="overlay-font">
                         <p>品牌再造設計</p>
                         <p class="border">台中外埔忘憂谷</p>
                     </div>
-                </div>
-
-                <div v-if="showPopup" class="popup" @click.stop>
-                  <div class="message">{{ "test" }}</div>
-                  <button @click="closeMessage">Close</button>
                 </div>
 
             </div>
@@ -105,19 +100,9 @@ export default {
   name: "PortfoliosPage",
   data(){
     return {
-      showPopup: false,
-      message: "test"
     }
   },
   methods: {
-    showMessage,
-    closeMessage
   }
-}
-function closeMessage(){
-  this.showPopup= false;
-}
-function showMessage(){
-  this.showPopup = true;
 }
 </script>
