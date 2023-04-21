@@ -3,15 +3,16 @@
     <div class="banner-name">
         ZhuoXL
     </div>
-    <div class="banner-home">
-       HOME
-    </div>
-    <div class="banner-about">
-        ABOUT
-    </div>
-    <div class="banner-portfolio">
-        PORTFOLIO
-    </div>
+        <div class="banner-home">
+           HOME
+        </div>
+        <div class="banner-about">
+            ABOUT
+        </div>
+        <div class="banner-portfolio">
+            PORTFOLIO
+        </div>
+
 </div>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shrikhand">
 </template>

@@ -1,3 +1,6 @@
+.about-all{
+
+}
 .about{
   display: flex;
   flex-direction: column;
@@ -20,11 +23,11 @@
 .about-bar {
   width: auto;
   background-color: #FE600F;
-  position: absolute;
-  height: 60px;
-  left: 0px;
-  right: 0px;
-  top: 0px;
+  //position: absolute;
+  //height: 60px;
+  //left: 0px;
+  //right: 0px;
+  ////top: 0px;
 }
 .about-title {
   display: flex;
@@ -74,7 +77,7 @@
     height: 200px;
     //margin-left: 150
     position: absolute;
-    top: 850px;
+    top: 870px;
     left: 150px;
 
 }
@@ -84,6 +87,7 @@
     align-items: center;
     justify-content: space-around;
     flex-grow: 1;
+    width: auto;
 
 
     .job{
@@ -174,7 +178,11 @@
   text-align: center;
   letter-spacing: 0.02em;
   color: #FE600F;
-   margin: 150px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  margin-left:300px;
+  margin-right:300px;
+
 }
 .about-professional-items{
   .about-professional-items-title{

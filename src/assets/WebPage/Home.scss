@@ -1,10 +1,18 @@
+.home-all{
+  height:100%;
+  width: 100%;
+  background: radial-gradient(50% 50% at 50% 50%, #FDFAE7 0%, #FFFFFF 100%);
+
+}
+
+
 .home-circlar {
   width: 150px;
   height: 150px;
   margin: 4px auto 0;
   position: absolute;
   left: 231.84px;
-  top: 150px;
+  top: 170px;
   letter-spacing: 0.14em;
   font-weight: 600;
 }
@@ -47,9 +55,9 @@
 .home{
   display: flex;
   justify-content: space-around;
-  width: 1440px;
+  padding-bottom: 170px;
 
-  background: radial-gradient(50% 50% at 50% 50%, #FDFAE7 0%, #FFFFFF 100%);
+
 }
 .home-left{
   display:flex;
@@ -60,12 +68,15 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
-  margin-top: 180px;
+  margin-right: 50px;
+  margin-top: 170px;
+
   .home-slogan p {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    flex-wrap: wrap;
+    //flex-wrap: wrap;
+
 
     font-family: 'Source Serif Pro';
     font-size: 50px;
@@ -89,6 +100,7 @@
     width: 150px;
     height: 50px;
     border-radius: 100px;
+    margin-top:130px;
   }
 
 }

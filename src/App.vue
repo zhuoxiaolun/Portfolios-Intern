@@ -1,20 +1,24 @@
 <template>
-<!--  banner-->
-  <PortfoliosPage/>
-<!--footer-->
+  <bannerPage/>
+  <HomePage/>
+  <FooterCopyright/>
 </template>
 
 <script>
 
 
+import bannerPage from "@/components/banner-page.vue";
+import FooterCopyright from "@/components/footer-copyright.vue";
+import HomePage from "@/components/home-page.vue";
 
-import PortfoliosPage from "@/components/myPortfolios-page.vue";
 
 
 export default {
   name: 'App',
   components: {
-    PortfoliosPage,
+      bannerPage,
+      HomePage,
+      FooterCopyright,
   }
 }
 </script>

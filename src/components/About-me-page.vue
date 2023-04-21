@@ -1,85 +1,86 @@
 <template>
-  <div class="about-bar">
-      <div class="about-font">
-      ABOUT ME
-      </div>
-  </div>
-  <div class="about">
-    <div class="about-title">
-      <div class="title" v-for="(titleObj, index) in titleObjects" :key="index">
-        <p class="about-en-title">
-          {{titleObj["en"]}}
-        </p>
-        <p class="about-ch-title">
-          {{titleObj["ch"]}}
-        </p>
-      </div>
-    </div>
-
-
-    <div class="about-profile">
-      <img class="about-photo" src="../assets/images/about-me-photo.png">
-      <div class="about-experience">
-        <div class="job">
-          <p class="job-ch">{{aboutProfile.job_ch}}</p>
-          <p class="job-en">{{aboutProfile.job_en}}</p>
-        </div>
-        <div class="name">
-         <p class="name-ch">{{aboutProfile.name_ch}}</p>
-         <p class="name-en">{{aboutProfile.name_en}}</p>
-        </div>
-        <div class="education">
-          <p class="education-ch">{{aboutProfile.education_ch}}</p>
-          <p class="education-en">{{aboutProfile.education_en}}</p>
-        </div>
-        <div class="school">
-        <p >{{aboutProfile.senior_school}}</p>
-        <p >{{aboutProfile.collage_school}}</p>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="about-description">
-      <p>
-        我是一位對網頁設計和網站開發充滿熱情的初學者，透過自學的方式深入探索這個領域，
-        我喜歡挑戰自己，不斷學習新知識和技能，透過智慧轉化成就。<br>
-        在過去自學過程，我學習了HTML、CSS、JavaScript等語言和相關基本技術，我相信透過不斷地學習和實踐，
-        我能夠迅速學習和掌握新的技能和工具，並為網站的設計和開發帶來創新和美感。
-      </p>
-    </div>
-
-    <div class="about-professional-items">
-      <div class="about-professional-items-title">
-        <p class="item-title-ch">{{professionalItems.Title.ch}}</p>
-        <p class="item-title-en">{{professionalItems.Title.en}}</p>
-      </div>
-      <p class="about-professional-items-item" v-for="(item, key) in professionalItems.Items" :key="key">
-        {{item}}
-      </p>
-    </div>
-
-    <div class="about-content">
-      <div class="about-content-title">
-        <p class="content-title-ch">{{contentInformation.Title.ch}}</p>
-        <p class="content-title-en">{{contentInformation.Title.en}}</p>
-      </div>
-
-      <p class="about-content-phone">{{contentInformation.Phone}}</p>
-      <p class="about-content-email">{{contentInformation.Email}}</p>
-
-    </div>
-      <div class="about-bottom">
-          <div class="about-sentences">
-              <p>Insightful wisdom, inspiring ideas,</p>
-              <p>learning knowledge, and innovative design.</p>
-          </div>
-          <div class="about-btn">
-              <img  src="../assets/images/go-port.png" class="about-btn"/>
+    <div class="about-all">
+      <div class="about-bar">
+          <div class="about-font">
+          ABOUT ME
           </div>
       </div>
-  </div>
+      <div class="about">
+        <div class="about-title">
+          <div class="title" v-for="(titleObj, index) in titleObjects" :key="index">
+            <p class="about-en-title">
+              {{titleObj["en"]}}
+            </p>
+            <p class="about-ch-title">
+              {{titleObj["ch"]}}
+            </p>
+          </div>
+        </div>
 
+
+        <div class="about-profile">
+          <img class="about-photo" src="../assets/images/about-me-photo.png">
+          <div class="about-experience">
+            <div class="job">
+              <p class="job-ch">{{aboutProfile.job_ch}}</p>
+              <p class="job-en">{{aboutProfile.job_en}}</p>
+            </div>
+            <div class="name">
+             <p class="name-ch">{{aboutProfile.name_ch}}</p>
+             <p class="name-en">{{aboutProfile.name_en}}</p>
+            </div>
+            <div class="education">
+              <p class="education-ch">{{aboutProfile.education_ch}}</p>
+              <p class="education-en">{{aboutProfile.education_en}}</p>
+            </div>
+            <div class="school">
+            <p >{{aboutProfile.senior_school}}</p>
+            <p >{{aboutProfile.collage_school}}</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="about-description">
+          <p>
+            我是一位對網頁設計和UI介面設計充滿熱情的初學者，透過自學的方式深入探索這個領域，
+            我喜歡挑戰自己，不斷學習新知識和技能，透過智慧轉化成就。<br>
+            在過去自學過程，我學習了HTML、CSS、JavaScript等語言和相關基本技術，我相信透過不斷地學習和實踐，
+            我能夠迅速學習和掌握新的技能和工具，並為網站的設計和開發帶來創新和美感。
+          </p>
+        </div>
+
+        <div class="about-professional-items">
+          <div class="about-professional-items-title">
+            <p class="item-title-ch">{{professionalItems.Title.ch}}</p>
+            <p class="item-title-en">{{professionalItems.Title.en}}</p>
+          </div>
+          <p class="about-professional-items-item" v-for="(item, key) in professionalItems.Items" :key="key">
+            {{item}}
+          </p>
+        </div>
+
+        <div class="about-content">
+          <div class="about-content-title">
+            <p class="content-title-ch">{{contentInformation.Title.ch}}</p>
+            <p class="content-title-en">{{contentInformation.Title.en}}</p>
+          </div>
+
+          <p class="about-content-phone">{{contentInformation.Phone}}</p>
+          <p class="about-content-email">{{contentInformation.Email}}</p>
+
+        </div>
+          <div class="about-bottom">
+              <div class="about-sentences">
+                  <p>Insightful wisdom, inspiring ideas,</p>
+                  <p>learning knowledge, and innovative design.</p>
+              </div>
+              <div class="about-btn">
+                  <img  src="../assets/images/go-port.png" class="about-btn"/>
+              </div>
+          </div>
+      </div>
+    </div>
 </template>
 
 <script setup>
