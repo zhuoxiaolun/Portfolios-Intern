@@ -1,7 +1,7 @@
 <template>
     <div class="paint-all">
         <div class="paint-delete">
-            <img src="../assets/images/fragrant/delete.png" alt="01" class="paint-delete-photo" />
+            <img src="../../assets/images/fragrant/delete.png" alt="01" class="paint-delete-photo" />
         </div>
         <div class="paint-sip">
             <div class="paint-article">
@@ -30,7 +30,7 @@
             </div>
             <div class="paint-work">
                 <div class="paint-photo">
-                    <img  src="../assets/images/fragrant/05-photo.png" alt="05"  class="paint" />
+                    <img src="../../assets/images/fragrant/05-photo.png" alt="05" class="paint" />
                 </div>
             </div>
         </div>

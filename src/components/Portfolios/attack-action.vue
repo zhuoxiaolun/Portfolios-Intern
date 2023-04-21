@@ -1,7 +1,7 @@
 <template>
     <div class="attack-all">
         <div class="attack-delete">
-            <img src="../assets/images/fragrant/delete.png" alt="01" class="attack-delete-photo" />
+            <img src="../../assets/images/fragrant/delete.png" alt="01" class="attack-delete-photo" />
         </div>
         <div class="attack-actions">
             <div class="attack-article">
@@ -27,17 +27,17 @@
 
 
                 <div class="attack-aww-photo">
-                    <img  src="../assets/images/fragrant/06-aww.png" alt="06"  class="attack-action-aww" />
+                    <img src="../../assets/images/fragrant/06-aww.png" alt="06" class="attack-action-aww" />
                 </div>
 
             </div>
             <div class="attack-work">
                 <div class="attack-photo">
-                    <img  src="../assets/images/fragrant/06-phot-big.png" alt="06"  class="attack" />
+                    <img src="../../assets/images/fragrant/06-phot-big.png" alt="06" class="attack" />
                 </div>
                 <div class="attack-bottom-photo">
-                    <img  src="../assets/images/fragrant/06-photo-left.png" alt="06-1"  class="attack-left" />
-                    <img  src="../assets/images/fragrant/06-photo-right.png" alt="06-2"  class="attack-right" />
+                    <img src="../../assets/images/fragrant/06-photo-left.png" alt="06-1" class="attack-left" />
+                    <img src="../../assets/images/fragrant/06-photo-right.png" alt="06-2" class="attack-right" />
                 </div>
             </div>
         </div>

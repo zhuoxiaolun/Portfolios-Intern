@@ -2,7 +2,7 @@
 
     <div class="fragrant-all">
         <div class="fragrant-delete">
-            <img src="../assets/images/fragrant/delete.png" alt="01" class="fragrant-delete-photo" />
+            <img src="../../assets/images/fragrant/delete.png" alt="01" class="fragrant-delete-photo" />
         </div>
         <div class="fragrant-paddy">
             <div class="fragrant-article">
@@ -38,7 +38,7 @@
             </div>
             <div class="fragrant-work">
                 <div class="fragrant-photo">
-                <img  src="../assets/images/fragrant/01-photo.png" alt="01"  class="fragrant" />
+                <img src="../../assets/images/fragrant/01-photo.png" alt="01" class="fragrant" />
                 </div>
             </div>
         </div>

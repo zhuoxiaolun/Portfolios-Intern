@@ -2,7 +2,7 @@
 
     <div class="elves-all">
         <div class="elves-delete">
-            <img src="../assets/images/fragrant/delete.png" alt="01" class="elves-delete-photo" />
+            <img src="../../assets/images/fragrant/delete.png" alt="01" class="elves-delete-photo" />
         </div>
         <div class="elves-Land">
             <div class="elves-article">
@@ -26,7 +26,7 @@
             </div>
             <div class="elves-work">
                 <div class="elves-photo">
-                    <img  src="../assets/images/fragrant/04-photo.png" alt="04"  class="elves" />
+                    <img src="../../assets/images/fragrant/04-photo.png" alt="04" class="elves" />
                 </div>
             </div>
         </div>

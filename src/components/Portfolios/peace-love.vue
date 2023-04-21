@@ -1,7 +1,7 @@
 <template>
     <div class="peace-all">
         <div class="peace-delete">
-            <img src="../assets/images/fragrant/delete.png" alt="01" class="peace-delete-photo" />
+            <img src="../../assets/images/fragrant/delete.png" alt="01" class="peace-delete-photo" />
         </div>
         <div class="peace-love">
             <div class="peace-article">
@@ -27,13 +27,13 @@
 
 
                 <div class="peace-aww-photo">
-                    <img  src="../assets/images/fragrant/03-aww.png" alt="03"  class="peace-love-aww" />
+                    <img src="../../assets/images/fragrant/03-aww.png" alt="03" class="peace-love-aww" />
                 </div>
 
             </div>
             <div class="peace-work">
                 <div class="peace-photo">
-                    <img  src="../assets/images/fragrant/03-photo.png" alt="03"  class="peace" />
+                    <img src="../../assets/images/fragrant/03-photo.png" alt="03" class="peace" />
                 </div>
             </div>
         </div>

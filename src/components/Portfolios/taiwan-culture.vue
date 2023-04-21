@@ -1,7 +1,7 @@
 <template>
     <div class="Taiwan-all">
         <div class="Taiwan-delete">
-            <img src="../assets/images/fragrant/delete.png" alt="01" class="Taiwan-delete-photo" />
+            <img src="../../assets/images/fragrant/delete.png" alt="01" class="Taiwan-delete-photo" />
         </div>
         <div class="Taiwan-culture">
             <div class="Taiwan-article">
@@ -29,13 +29,13 @@
                 </p>
 
                 <div class="Taiwan-aww-photo">
-                    <img  src="../assets/images/fragrant/07-aww.png" alt="07"  class="Taiwan-culture-aww" />
+                    <img src="../../assets/images/fragrant/07-aww.png" alt="07" class="Taiwan-culture-aww" />
                 </div>
 
             </div>
             <div class="Taiwan-work">
                 <div class="Taiwan-photo">
-                    <img  src="../assets/images/fragrant/07-photo.png" alt="07"  class="Taiwan" />
+                    <img src="../../assets/images/fragrant/07-photo.png" alt="07" class="Taiwan" />
                 </div>
             </div>
         </div>
