@@ -85,8 +85,10 @@
             </div>
         </div>
     </div>
+    <div class="portfolio-go">
     <div class="portfolio-go-home">
         <img src="../assets/images/go-home.png " alt="home" class="go-home-btn"/>
+    </div>
     </div>
 </div>
 </template>

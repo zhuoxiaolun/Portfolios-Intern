@@ -1,5 +1,6 @@
 .portfolio{
   background: radial-gradient(156.71% 64.02% at 50% 33.7%, #F4EEE0 0%, #FFFFFF 100%);
+width: auto;
 
   .portfolio-font {
     font-family: 'Source Serif Pro';
@@ -41,12 +42,14 @@
   .portfolio-go-home{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    width:1632px;
+    justify-content:flex-end;
+    width:1050px;
     .go-home-btn{
       width: 190px;
       height: 80px;
-      margin: 150px;
+
+      margin-top: 200px;
+      margin-bottom: 200px;
     }
   }
 
@@ -55,6 +58,12 @@
   transform: scale(1.2);
   cursor: pointer;
 
+}
+.portfolio-go{
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
 }
 
 
