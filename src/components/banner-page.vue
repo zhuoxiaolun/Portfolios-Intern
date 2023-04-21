@@ -1,7 +1,9 @@
 <template>
 <div class="banner-box">
+    <div class="banner-em">
     <div class="banner-name">
         ZhuoXL
+    </div>
     </div>
         <div class="banner-home">
            HOME
