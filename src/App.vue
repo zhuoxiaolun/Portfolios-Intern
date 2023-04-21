@@ -8,7 +8,7 @@
 
 
 
-import PortfoliosPage from "@/components/Portfolios/myPortfolios-page.vue";
+import PortfoliosPage from "@/components/myPortfolios-page.vue";
 
 
 export default {
