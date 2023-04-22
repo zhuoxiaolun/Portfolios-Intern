@@ -17,9 +17,8 @@ import MainContainer from "@/MainContainer.vue";
 export default {
   name: 'App',
   components: {
-    MainContainer,
+      MainContainer,
       bannerPage,
-
       FooterCopyright,
   }
 }

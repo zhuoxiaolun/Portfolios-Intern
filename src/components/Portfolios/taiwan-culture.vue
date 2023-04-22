@@ -2,7 +2,7 @@
     <div class="Taiwan-all">
         <router-link to="/portfolios" class="Taiwan-delete">
             <img src="../../assets/images/fragrant/delete.png" alt="01" class="Taiwan-delete-photo" />
-        </router-link>>
+        </router-link>
         <div class="Taiwan-culture">
             <div class="Taiwan-article">
                 <p class="Taiwan-name-ch">
@@ -25,7 +25,7 @@
                     隨著時代演變，與經濟快速發展、都市更新，有越來越多上世紀的古厝，在尚未進入古蹟申請或文化保存的階段前，就被政府徵收、或遭有心人士破壞。別具歷史、文化意義的「台灣特色花磚」也因此日漸稀少。
                 </p><br>
                 <p class="Taiwan-inside-article">
-                    於是我使用傳統花磚作為主題並記錄下各式造型花磚色彩分布，回味那年代之迷人氣息，令人感到迷人雋永。所以抽絲剝繭，努力重建當初的美麗，建構出當初的記憶。
+                    於是我使用傳統花磚作為主題並記錄下各式造型花磚色彩分布，回味那年代之氣息，令人感到迷人雋永。所以抽絲剝繭，努力重建當時的美麗，建構出當初的記憶。
                 </p>
 
                 <div class="Taiwan-aww-photo">

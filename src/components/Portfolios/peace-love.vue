@@ -2,7 +2,7 @@
     <div class="peace-all">
         <router-link to="/portfolios" class="peace-delete">
             <img src="../../assets/images/fragrant/delete.png" alt="01" class="peace-delete-photo" />
-        </router-link>>
+        </router-link>
         <div class="peace-love">
             <div class="peace-article">
                 <p class="peace-name-ch">

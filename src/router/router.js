@@ -11,6 +11,11 @@ import taiwanCulture from "@/components/Portfolios/taiwan-culture.vue";
 import BlenderArt from "@/components/Portfolios/BlenderArt.vue";
 const routes = [
     {
+        path:'/',
+        name:'index',
+        component: HomePage
+    },
+    {
         path: '/home',
         name: 'Home',
         component: HomePage

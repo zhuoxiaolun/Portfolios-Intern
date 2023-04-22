@@ -2,7 +2,7 @@
     <div class="paint-all">
         <router-link to="/portfolios" class="paint-delete">
             <img src="../../assets/images/fragrant/delete.png" alt="01" class="paint-delete-photo" />
-        </router-link>>
+        </router-link>
         <div class="paint-sip">
             <div class="paint-article">
                 <p class="paint-name-ch">
@@ -25,12 +25,12 @@
                     我們認為藝術美感其實存在於生活每個角落，而不是需要刻意花時間去接觸制式化的美學，透過酒精打開自我，與自己對話創造出內心的小宇宙。
                 </p><br>
                 <p class="paint-inside-article">
-                    在台灣這項活動並不流行，少數有類似形式的商家，現在多半是群體報名創作，而非針對單人客群的心理抒發，因此我們想給隻身前往的人一個可以獨自面對自己也能與人交流的烏托邦。
+                    在台灣有少數類似形式的商家，且多半是群體報名創作，而非針對單人客群的心理抒發，因此我們想給隻身前往的人一個可以獨自面對自己也能與人交流的烏托邦。
                 </p>
             </div>
             <div class="paint-work">
                 <div class="paint-photo">
-                    <img src="../../assets/images/fragrant/05-photo.png" alt="05" class="paint" />
+                    <img src="../../assets/images/fragrant/05-photo-new.jpg" alt="05" class="paint" />
                 </div>
             </div>
         </div>
