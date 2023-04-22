@@ -15,7 +15,7 @@
                 </div>
 
             </router-link>
-            <div class="portfolio-left-work portfolio-relay">
+            <router-link to="/" class="portfolio-left-work portfolio-relay">
                 <img class="portfolio-image" src="../assets/images/left/02-photo.png" alt="02" />
                 <div class="overlay">
                     <div class="overlay-font">
@@ -24,7 +24,7 @@
 
                     </div>
                 </div>
-            </div>
+            </router-link>
             <router-link to="/peace-love" class="portfolio-left-work portfolio-relay">
                 <img class="portfolio-image" src="../assets/images/left/03.png" alt="03" />
                 <div class="overlay">
