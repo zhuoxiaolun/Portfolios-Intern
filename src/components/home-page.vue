@@ -17,7 +17,7 @@
               <p>into reality</p>
               <p>through design</p>
             </div>
-              <p><img  src="../assets/images/home-continue.png" class="home-btn"/></p>
+              <router-link to="/about"><img  src="../assets/images/home-continue.png" class="home-btn"/></router-link>
           </div>
         </div>
     </div>

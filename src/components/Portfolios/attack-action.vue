@@ -1,8 +1,8 @@
 <template>
     <div class="attack-all">
-        <div class="attack-delete">
+        <router-link to="/portfolios" class="attack-delete">
             <img src="../../assets/images/fragrant/delete.png" alt="01" class="attack-delete-photo" />
-        </div>
+        </router-link>
         <div class="attack-actions">
             <div class="attack-article">
                 <p class="attack-name-ch">

@@ -1,8 +1,8 @@
 <template>
     <div class="paint-all">
-        <div class="paint-delete">
+        <router-link to="/portfolios" class="paint-delete">
             <img src="../../assets/images/fragrant/delete.png" alt="01" class="paint-delete-photo" />
-        </div>
+        </router-link>>
         <div class="paint-sip">
             <div class="paint-article">
                 <p class="paint-name-ch">

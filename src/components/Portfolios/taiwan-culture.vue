@@ -1,8 +1,8 @@
 <template>
     <div class="Taiwan-all">
-        <div class="Taiwan-delete">
+        <router-link to="/portfolios" class="Taiwan-delete">
             <img src="../../assets/images/fragrant/delete.png" alt="01" class="Taiwan-delete-photo" />
-        </div>
+        </router-link>>
         <div class="Taiwan-culture">
             <div class="Taiwan-article">
                 <p class="Taiwan-name-ch">

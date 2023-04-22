@@ -1,8 +1,8 @@
 <template>
     <div class="blender-all">
-        <div class="blender-delete">
-            <img src="../assets/images/fragrant/delete.png" alt="01" class="blender-delete-photo" />
-        </div>
+        <router-link to="/portfolios" class="blender-delete">
+            <img src="../../assets/images/fragrant/delete.png" alt="01" class="blender-delete-photo" />
+        </router-link>
         <div class="blender-art">
             <div class="blender-article">
                 <p class="blender-name-ch">
@@ -15,7 +15,7 @@
             </div>
             <div class="blender-work">
                 <div class="blender-photo">
-                    <img  src="../assets/images/fragrant/08-photo.png" alt="08"  class="blender" />
+                    <img src="../../assets/images/fragrant/08-photo.png" alt="08" class="blender" />
                 </div>
             </div>
         </div>

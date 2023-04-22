@@ -1,8 +1,8 @@
 <template>
     <div class="peace-all">
-        <div class="peace-delete">
+        <router-link to="/portfolios" class="peace-delete">
             <img src="../../assets/images/fragrant/delete.png" alt="01" class="peace-delete-photo" />
-        </div>
+        </router-link>>
         <div class="peace-love">
             <div class="peace-article">
                 <p class="peace-name-ch">

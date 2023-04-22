@@ -1,9 +1,9 @@
 <template>
 
     <div class="fragrant-all">
-        <div class="fragrant-delete">
+        <router-link to="/portfolios" class="fragrant-delete">
             <img src="../../assets/images/fragrant/delete.png" alt="01" class="fragrant-delete-photo" />
-        </div>
+        </router-link>>
         <div class="fragrant-paddy">
             <div class="fragrant-article">
                 <p class="fragrant-name-ch">

@@ -75,9 +75,9 @@
                   <p>Insightful wisdom, inspiring ideas,</p>
                   <p>learning knowledge, and innovative design.</p>
               </div>
-              <div class="about-btn">
+              <router-link to="/portfolios" class="about-btn">
                   <img  src="../assets/images/go-port.png" class="about-btn"/>
-              </div>
+              </router-link>
           </div>
       </div>
     </div>

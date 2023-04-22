@@ -1,9 +1,9 @@
 <template>
 
     <div class="elves-all">
-        <div class="elves-delete">
+        <router-link to="/portfolios" class="elves-delete">
             <img src="../../assets/images/fragrant/delete.png" alt="01" class="elves-delete-photo" />
-        </div>
+        </router-link>>
         <div class="elves-Land">
             <div class="elves-article">
                 <p class="elves-name-ch">
