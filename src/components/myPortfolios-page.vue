@@ -15,7 +15,7 @@
                 </div>
 
             </router-link>
-            <router-link to="/" class="portfolio-left-work portfolio-relay">
+            <router-link to="/" target="_blank" class="portfolio-left-work portfolio-relay">
                 <img class="portfolio-image" src="../assets/images/left/02-photo.png" alt="02" />
                 <div class="overlay">
                     <div class="overlay-font">
