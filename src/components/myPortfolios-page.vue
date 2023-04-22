@@ -16,7 +16,7 @@
 
             </router-link>
             <div class="portfolio-left-work portfolio-relay">
-                <img class="portfolio-image" src="../assets/images/left/02.png" alt="02" />
+                <img class="portfolio-image" src="../assets/images/left/02-photo.png" alt="02" />
                 <div class="overlay">
                     <div class="overlay-font">
                         <p>個人網站設計</p>

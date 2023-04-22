@@ -2,6 +2,7 @@
   <bannerPage/>
   <MainContainer/>
   <FooterCopyright/>
+
 </template>
 
 <script>
@@ -12,11 +13,13 @@ import FooterCopyright from "@/components/footer-copyright.vue";
 import MainContainer from "@/MainContainer.vue";
 
 
+
 export default {
   name: 'App',
   components: {
     MainContainer,
       bannerPage,
+
       FooterCopyright,
   }
 }
