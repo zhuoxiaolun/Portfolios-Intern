@@ -67,7 +67,7 @@
           </div>
 
           <p class="about-content-phone">{{contentInformation.Phone}}</p>
-          <p class="about-content-email">{{contentInformation.Email}}</p>
+            <a href="mailto:zhuoxl3729@gmail.com" target="_blank" class="aa"><p class="about-content-email">{{contentInformation.Email}}</p></a>
 
         </div>
           <div class="about-bottom">
